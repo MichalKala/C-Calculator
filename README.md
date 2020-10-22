@@ -4,6 +4,8 @@ This is a simple calculator I have programmed as part of my self study. User is 
 
 Every input has exception handling, to prevent crashes after wrong input. It allows user to try enter new value.
 
+UPDATE 22.10.2020 - added unit tests for math methods.
+
 Example screenshot:
 
 ![alt text](https://github.com/MichalKala/C-Sharp-Calculator/blob/master/Screenshot.JPG)
