@@ -59,25 +59,25 @@ namespace Calculator
                 switch (selectedOperation)
                 {
                     case 1:
-                        result = Math.Addition(firstNumber, secondNumber);
+                        result = MathOperations.Addition(firstNumber, secondNumber);
                         Console.WriteLine(firstNumber + " + " + secondNumber + " = " + result);
                         OperationValid = true;
                         break;
 
                     case 2:
-                        result = Math.Substraction(firstNumber, secondNumber);
+                        result = MathOperations.Substraction(firstNumber, secondNumber);
                         Console.WriteLine(firstNumber + " - " + secondNumber + " = " + result);
                         OperationValid = true;
                         break;
 
                     case 3:
-                        result = Math.Multiplication(firstNumber, secondNumber);
+                        result = MathOperations.Multiplication(firstNumber, secondNumber);
                         Console.WriteLine(firstNumber + " * " + secondNumber + " = " + result);
                         OperationValid = true;
                         break;
 
                     case 4:
-                        result = Math.Division(firstNumber, secondNumber);
+                        result = MathOperations.Division(firstNumber, secondNumber);
                         Console.WriteLine(firstNumber + " / " + secondNumber + " = " + result);
                         OperationValid = true;
                         break;
